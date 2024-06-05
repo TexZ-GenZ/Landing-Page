@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
 /* Header */
 
 .page{
@@ -109,4 +113,12 @@ button{
     border-radius: 10px;
     font-family: Roboto;
     font-weight: 500;
+}
+
+
+/* info */
+
+.info{
+    display: flex;
+    flex-direction: column;
 }
